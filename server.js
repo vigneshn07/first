@@ -8,5 +8,7 @@ app.get('/',function(req,res){
 })
 
 
-app.listen(3000);
+app.listen(3000,function(req,res){
+    res.end("HEROKU");
+});
 console.log('Server is live on 3000');
